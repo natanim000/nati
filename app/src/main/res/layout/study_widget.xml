@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="@drawable/widget_bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="STUDY MOTIVATION" android:textColor="#AFA8C6" android:textSize="9sp" android:textStyle="bold" />
+        <TextView android:id="@+id/widget_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DAY 1" android:textColor="#A78BFA" android:textSize="10sp" android:textStyle="bold" />
+    </LinearLayout>
+    <TextView android:id="@+id/widget_countdown" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="304d 00h 00m 00s" android:textColor="#FFFFFF" android:textSize="24sp" android:textStyle="bold" android:layout_marginTop="9dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="UNTIL 01 JUL 2027" android:textColor="#7DD3FC" android:textSize="9sp" android:textStyle="bold" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#302A45" android:layout_marginTop="9dp" />
+    <TextView android:id="@+id/widget_quote" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="4" android:ellipsize="end" android:text="“Stay focused.”" android:textColor="#FFFFFF" android:textSize="11sp" android:layout_marginTop="8dp" />
+    <TextView android:id="@+id/widget_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="— Author" android:textColor="#AFA8C6" android:textSize="10sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#0B0915">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" />
+    </ScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="68dp" android:orientation="horizontal" android:background="#100D1B" android:padding="7dp">
+        <TextView android:id="@+id/nav_today" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="TODAY" android:textSize="10sp" android:textStyle="bold" android:textColor="#A78BFA" />
+        <TextView android:id="@+id/nav_journey" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="JOURNEY" android:textSize="10sp" android:textStyle="bold" android:textColor="#AFA8C6" />
+        <TextView android:id="@+id/nav_targets" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="TARGETS" android:textSize="10sp" android:textStyle="bold" android:textColor="#AFA8C6" />
+    </LinearLayout>
+</LinearLayout>

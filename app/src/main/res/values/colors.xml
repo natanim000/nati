@@ -1,0 +1,14 @@
+<resources>
+    <color name="bg">#0B0915</color>
+    <color name="surface">#141122</color>
+    <color name="surface2">#1A162B</color>
+    <color name="surface3">#211B36</color>
+    <color name="fg">#FFFFFF</color>
+    <color name="muted">#AFA8C6</color>
+    <color name="primary">#A78BFA</color>
+    <color name="cyan">#7DD3FC</color>
+    <color name="success">#69D4A3</color>
+    <color name="amber">#F6C86D</color>
+    <color name="danger">#F18B9B</color>
+    <color name="border">#302A45</color>
+</resources>
